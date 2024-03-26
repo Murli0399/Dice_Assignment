@@ -6,7 +6,7 @@ document.getElementById("add").addEventListener('click', () => {
 
 function searchW(city) {
 
-    fetch(`http://localhost:8080/weather/forecast-summary?city=${city}`)
+    fetch(`diceassignment-production.up.railway.app/weather/forecast-summary?city=${city}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
