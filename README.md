@@ -12,7 +12,7 @@ This Spring Boot application integrates with weather APIs to provide weather for
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/spring-boot-weather-app.git
+    git clone https://github.com/Murli0399/Dice_Assignment.git
     ```
 
 2. Navigate to the project directory:
