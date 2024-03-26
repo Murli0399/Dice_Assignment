@@ -15,6 +15,10 @@ function searchW(city) {
         })
         .then(data => {
             console.log('Forecast Summary:', data);
+            document.getElementById("cityoutput").innerText = data.location.name;
+            document.getElementById("description").innerText = data.location.timezone;
+            document.getElementById("temp").innerText = data.forecast.items[0].temperature.max;
+            document.getElementById("wind").innerText = data.forecast.items[0].wind.max;
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);

@@ -33,7 +33,7 @@ public class WeatherIntegrationService {
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
         ResponseEntity<String> response = restTemplate.exchange(
-                "https://forecast9.p.rapidapi.com/forecast/summary?q=" + city,
+                "https://forecast9.p.rapidapi.com/rapidapi/forecast/"+city+"/summary/",
                 HttpMethod.GET,
                 entity,
                 String.class
