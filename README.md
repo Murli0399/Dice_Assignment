@@ -49,3 +49,16 @@ Example Request:
 
 ```bash
   GET "http://localhost:8080/weather/forecast-summary?city=Delhi"
+```
+
+
+## 🔗 Contact Me
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://murli0399.github.io/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murli-khaire/)
+
+
+## Authors
+
+- [Murli Khaire](https://github.com/Murli0399)
