@@ -1,10 +1,11 @@
-# Spring Boot Weather Application
+# Weather Application
 
 This Spring Boot application integrates with weather APIs to provide weather forecast information for different cities. It exposes RESTful endpoints to retrieve forecast summaries and hourly forecast details for a specified city.
 
 ## Tech Stack
 
 - Java, Spring Boot
+- Html, CSS, JavaScript
 - Maven, Git
 
 ## Getting Started
